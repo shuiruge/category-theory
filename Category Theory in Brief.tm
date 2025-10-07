@@ -3,7 +3,7 @@
 <style|book>
 
 <\body>
-  <doc-data|<doc-title|Category Theory in a Nutshell>>
+  <doc-data|<doc-title|Category Theory in Brief>>
 
   <\table-of-contents|toc>
     <vspace*|1fn><with|font-series|bold|math-font-series|bold|1<space|2spc>Preface>
@@ -288,19 +288,19 @@
       diagram commutes.>|<pageref|auto-19>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|2.3>||In this
-      <locus|<id|%4224408-70058E8-39E1AAF8>|<link|hyperlink|<id|%4224408-70058E8-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMiwiQiJdLFszLDAsIihHIFxcY2lyYyBGKShBKSJdLFszLDIsIihHIFxcY2lyYyBGKShCKSJdLFswLDEsImYiLDFdLFswLDIsIlxcYWxwaGFfQSJdLFsxLDMsIlxcYWxwaGFfe0J9Il0sWzIsMywiKEcgXFxjaXJjIEYpKGYpIiwxXV0=>>|figure>,
+      <locus|<id|%3CEFB3E8-40F95738-39E1AAF8>|<link|hyperlink|<id|%3CEFB3E8-40F95738-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMiwiQiJdLFszLDAsIihHIFxcY2lyYyBGKShBKSJdLFszLDIsIihHIFxcY2lyYyBGKShCKSJdLFswLDEsImYiLDFdLFswLDIsIlxcYWxwaGFfQSJdLFsxLDMsIlxcYWxwaGFfe0J9Il0sWzIsMywiKEcgXFxjaXJjIEYpKGYpIiwxXV0=>>|figure>,
       the <with|mode|<quote|math>|\<alpha\><rsub|A>> and
       <with|mode|<quote|math>|\<alpha\><rsub|B>> are
       isomorphisms.>|<pageref|auto-28>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|2.4>||In this
-      <locus|<id|%4224408-70035C0-39E1AAF8>|<link|hyperlink|<id|%4224408-70035C0-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMiwiQiJdLFszLDAsIihGIFxcY2lyYyBHKShBKSJdLFszLDIsIihGIFxcY2lyYyBHKShCKSJdLFswLDEsImYiLDFdLFswLDIsIlxcYmV0YV9BIl0sWzEsMywiXFxiZXRhX3tCfSJdLFsyLDMsIihGIFxcY2lyYyBHKShmKSIsMV1d>>|figure>,
+      <locus|<id|%3CEFB3E8-40FA0310-39E1AAF8>|<link|hyperlink|<id|%3CEFB3E8-40FA0310-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMiwiQiJdLFszLDAsIihGIFxcY2lyYyBHKShBKSJdLFszLDIsIihGIFxcY2lyYyBHKShCKSJdLFswLDEsImYiLDFdLFswLDIsIlxcYmV0YV9BIl0sWzEsMywiXFxiZXRhX3tCfSJdLFsyLDMsIihGIFxcY2lyYyBHKShmKSIsMV1d>>|figure>,
       the <with|mode|<quote|math>|\<beta\><rsub|A>> and
       <with|mode|<quote|math>|\<beta\><rsub|B>> are
       isomorphisms.>|<pageref|auto-29>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|2.5>||In this
-      <locus|<id|%4224408-7019130-39E1AAF8>|<link|hyperlink|<id|%4224408-7019130-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMiwiQiJdLFszLDAsIihGIFxcY2lyYyBHKShBKSJdLFszLDIsIihGIFxcY2lyYyBHKShCKSJdLFswLDEsImYiLDFdLFswLDIsIlxcYmV0YV9BIl0sWzEsMywiXFxiZXRhX3tCfSJdLFsyLDMsIihGIFxcY2lyYyBHKShmKSIsMV1d>>|figure>,
+      <locus|<id|%3CEFB3E8-40FA6B30-39E1AAF8>|<link|hyperlink|<id|%3CEFB3E8-40FA6B30-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMiwiQiJdLFszLDAsIihGIFxcY2lyYyBHKShBKSJdLFszLDIsIihGIFxcY2lyYyBHKShCKSJdLFswLDEsImYiLDFdLFswLDIsIlxcYmV0YV9BIl0sWzEsMywiXFxiZXRhX3tCfSJdLFsyLDMsIihGIFxcY2lyYyBHKShmKSIsMV1d>>|figure>,
       the <with|mode|<quote|math>|\<alpha\><rsub|A>> and
       <with|mode|<quote|math>|\<alpha\><rsub|B>> are
       isomorphisms.>|<pageref|auto-30>>
@@ -309,28 +309,28 @@
       <with|mode|<quote|math>|<with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|C>><around*|(|-,X|)>:<with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|C>><rsup|op>\<rightarrow\><with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|Set>>>.>|<pageref|auto-38>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|3.2>|| This
-      <locus|<id|%4224408-8BD0650-E1EBCAD>|<link|hyperlink|<id|%4224408-8BD0650-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogQSBcXHRvIFgiXSxbMSwyLCJcXHBoaSBcXGNpcmMgZzogQiBcXHRvIFgiXSxbMywwLCJcXGV0YV9BKFxccGhpKTogQSBcXHRvIFkiXSxbMywyLCJcXGV0YV9CKFxccGhpIFxcY2lyYyBnKSA9IFxcZXRhX0EoXFxwaGkpIFxcY2lyYyBnOiBCIFxcdG8gWSJdLFswLDIsIkIiXSxbMCwwLCJBIl0sWzAsMSwiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxcZXRhX0EiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsxLDMsIlxcZXRhX0IiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiZyIsMV1d>>|internal
+      <locus|<id|%3CEFB3E8-3FA9A000-E1EBCAD>|<link|hyperlink|<id|%3CEFB3E8-3FA9A000-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogQSBcXHRvIFgiXSxbMSwyLCJcXHBoaSBcXGNpcmMgZzogQiBcXHRvIFgiXSxbMywwLCJcXGV0YV9BKFxccGhpKTogQSBcXHRvIFkiXSxbMywyLCJcXGV0YV9CKFxccGhpIFxcY2lyYyBnKSA9IFxcZXRhX0EoXFxwaGkpIFxcY2lyYyBnOiBCIFxcdG8gWSJdLFswLDIsIkIiXSxbMCwwLCJBIl0sWzAsMSwiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxcZXRhX0EiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsxLDMsIlxcZXRhX0IiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiZyIsMV1d>>|internal
       diagram> TODO>|<pageref|auto-40>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|3.3>|| In this
-      <locus|<id|%4224408-8BD2030-39E1AAF8>|<link|hyperlink|<id|%4224408-8BD2030-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJDKFgsWCkiXSxbMSwyLCJDKFksWCkiXSxbNCwwLCJDKFgsWSkiXSxbNCwyLCJDKFksWSkiXSxbMCwyLCJZIl0sWzAsMCwiWCJdLFswLDEsImdeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiXFxldGFfWCJdLFsxLDMsIlxcZXRhX1kiXSxbMiwzLCJnXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs0LDUsImciLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dXQ==>>|figure>,
+      <locus|<id|%3CEFB3E8-3FA48838-39E1AAF8>|<link|hyperlink|<id|%3CEFB3E8-3FA48838-39E1AAF8>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJDKFgsWCkiXSxbMSwyLCJDKFksWCkiXSxbNCwwLCJDKFgsWSkiXSxbNCwyLCJDKFksWSkiXSxbMCwyLCJZIl0sWzAsMCwiWCJdLFswLDEsImdeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiXFxldGFfWCJdLFsxLDMsIlxcZXRhX1kiXSxbMiwzLCJnXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs0LDUsImciLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dXQ==>>|figure>,
       <with|mode|<quote|math>|\<eta\><rsub|X>> and
       <with|mode|<quote|math>|\<eta\><rsub|Y>> are
       isomorphisms.>|<pageref|auto-41>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|3.4>||This
-      <locus|<id|%4224408-8BD9168-E1EBCAD>|<link|hyperlink|<id|%4224408-8BD9168-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX1g6IFggXFx0byBYIl0sWzMsMCwiXFxldGFfWCgxX1gpOiBYIFxcdG8gWSJdLFsxLDIsIlxccGhpOiBYIFxcdG8gWCJdLFszLDIsIlxcZXRhX1goXFxwaGkpPVxcZXRhX1goMV9YKSBcXGNpcmMgXFxwaGk6IFggXFx0byBZIl0sWzAsMiwiWCJdLFswLDAsIlgiXSxbMCwxLCJcXGV0YV9YIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxccGhpXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiXFxldGFfWCIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMSwzLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs0LDUsIlxccGhpIiwxXV0=>>|internal
+      <locus|<id|%3CEFB3E8-3FA4A9B0-E1EBCAD>|<link|hyperlink|<id|%3CEFB3E8-3FA4A9B0-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX1g6IFggXFx0byBYIl0sWzMsMCwiXFxldGFfWCgxX1gpOiBYIFxcdG8gWSJdLFsxLDIsIlxccGhpOiBYIFxcdG8gWCJdLFszLDIsIlxcZXRhX1goXFxwaGkpPVxcZXRhX1goMV9YKSBcXGNpcmMgXFxwaGk6IFggXFx0byBZIl0sWzAsMiwiWCJdLFswLDAsIlgiXSxbMCwxLCJcXGV0YV9YIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxccGhpXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiXFxldGFfWCIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMSwzLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs0LDUsIlxccGhpIiwxXV0=>>|internal
       diagram> TODO>|<pageref|auto-42>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|3.5>||This
-      <locus|<id|%4224408-8BEACF8-E1EBCAD>|<link|hyperlink|<id|%4224408-8BEACF8-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX3tcXGhhdHtGfX06IFxcaGF0e0Z9IFxcdG8gXFxoYXR7Rn0iXSxbMywwLCJlIDo9IFxcZXRhX3tcXGhhdHtGfX0oMV97XFxoYXR7Rn19KSBcXGluIEYoXFxoYXR7Rn0pIl0sWzEsMiwiXFxwaGk6IFggXFx0byBcXGhhdHtGfSJdLFszLDIsIlxcZXRhX1goXFxwaGkpID0gRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzAsMiwiWCJdLFswLDAsIlxcaGF0e0Z9Il0sWzAsMSwiXFxldGFfe1xcaGF0e0Z9fSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMCwyLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsyLDMsIlxcZXRhX1giLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzEsMywiRihcXHBoaSkiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiXFxwaGkiLDFdXQ==>>|internal
+      <locus|<id|%3CEFB3E8-3FAB1B30-E1EBCAD>|<link|hyperlink|<id|%3CEFB3E8-3FAB1B30-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX3tcXGhhdHtGfX06IFxcaGF0e0Z9IFxcdG8gXFxoYXR7Rn0iXSxbMywwLCJlIDo9IFxcZXRhX3tcXGhhdHtGfX0oMV97XFxoYXR7Rn19KSBcXGluIEYoXFxoYXR7Rn0pIl0sWzEsMiwiXFxwaGk6IFggXFx0byBcXGhhdHtGfSJdLFszLDIsIlxcZXRhX1goXFxwaGkpID0gRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzAsMiwiWCJdLFswLDAsIlxcaGF0e0Z9Il0sWzAsMSwiXFxldGFfe1xcaGF0e0Z9fSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMCwyLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsyLDMsIlxcZXRhX1giLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzEsMywiRihcXHBoaSkiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiXFxwaGkiLDFdXQ==>>|internal
       diagram> indicates how the <with|mode|<quote|math>|e> is defined by
       <with|mode|<quote|math>|\<eta\>>, or conversely how the
       <with|mode|<quote|math>|\<eta\>> is defined by
       <with|mode|<quote|math>|e>.>|<pageref|auto-45>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|3.6>|| This
-      <locus|<id|%4224408-8BE69E8-E1EBCAD>|<link|hyperlink|<id|%4224408-8BE69E8-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogWCBcXHRvIFxcaGF0e0Z9Il0sWzEsMiwiXFxwaGkgXFxjaXJjIGY6IFkgXFx0byBcXGhhdHtGfSJdLFswLDIsIlkiXSxbMCwwLCJYIl0sWzQsMCwiRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzQsMiwiRihcXHBoaSBcXGNpcmMgZikoZSkgPSBbRihmKSBcXGNpcmMgRihcXHBoaSldKGUpIFxcaW4gRihZKSJdLFswLDEsImZeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMiwzLCJmIiwxXSxbNCw1LCJGKGYpIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDQsIkYoLSkoZSkiLDFdLFsxLDUsIkYoLSkoZSkiLDFdXQ==>>|internal
+      <locus|<id|%3CEFB3E8-3FACB778-E1EBCAD>|<link|hyperlink|<id|%3CEFB3E8-3FACB778-E1EBCAD>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogWCBcXHRvIFxcaGF0e0Z9Il0sWzEsMiwiXFxwaGkgXFxjaXJjIGY6IFkgXFx0byBcXGhhdHtGfSJdLFswLDIsIlkiXSxbMCwwLCJYIl0sWzQsMCwiRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzQsMiwiRihcXHBoaSBcXGNpcmMgZikoZSkgPSBbRihmKSBcXGNpcmMgRihcXHBoaSldKGUpIFxcaW4gRihZKSJdLFswLDEsImZeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMiwzLCJmIiwxXSxbNCw1LCJGKGYpIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDQsIkYoLSkoZSkiLDFdLFsxLDUsIkYoLSkoZSkiLDFdXQ==>>|internal
       diagram> proves that the naturality of
       <with|mode|<quote|math>|F<around*|(|-|)><around*|(|e|)>> is an
       immediate result of the functoriality of <with|mode|<quote|math>|F>. It
