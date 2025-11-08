@@ -288,14 +288,18 @@
   We summarize this section by the following theorem.
 
   <\theorem>
-    [Universal Element] A presheaf <math|F:<math-ss|C><rsup|op>\<rightarrow\><math-ss|Set>>
-    is representable if and only if there is an object <math|<wide|F|^>> in
-    <math|<math-ss|C>> together with an element <math|e> in the set
+    [Universal Element]<label|theorem:universal element> A presheaf
+    <math|F:<math-ss|C><rsup|op>\<rightarrow\><math-ss|Set>> is representable
+    if and only if there is an object <math|<wide|F|^>> in <math|<math-ss|C>>
+    together with an element <math|e> in the set
     <math|F<around*|(|<wide|F|^>|)>> such that, for any
     <math|X\<in\><math-ss|C>>, the function (morphism in
     <math|<math-ss|Set>>) <math|F<around*|(|-|)><around*|(|e|)>:<math-ss|C><around*|(|X,<wide|F|^>|)>\<rightarrow\>F<around*|(|X|)>>
     is bijective (isomorphic).
   </theorem>
+
+  TODO: Convert this theorem to a commutative diagram, because it is hard to
+  memorize.
 
   <subsection|Representation is unique up to isomorphism><label|section:
   Representation is unique>
@@ -364,7 +368,7 @@
     <associate|auto-11|<tuple|1.2.1|4>>
     <associate|auto-12|<tuple|1.5|4>>
     <associate|auto-13|<tuple|1.6|4>>
-    <associate|auto-14|<tuple|1.2.2|4>>
+    <associate|auto-14|<tuple|1.2.2|5>>
     <associate|auto-15|<tuple|1.3|5>>
     <associate|auto-16|<tuple|1.3.1|5>>
     <associate|auto-17|<tuple|1.3.2|5>>
@@ -388,8 +392,9 @@
     hom-functor|<tuple|1.1.2|1>>
     <associate|section: Representable Functor and Yoneda
     Functor|<tuple|1.1|1>>
-    <associate|section: Representation is unique|<tuple|1.2.2|4>>
+    <associate|section: Representation is unique|<tuple|1.2.2|5>>
     <associate|section: Universal Element|<tuple|1.2|4>>
+    <associate|theorem:universal element|<tuple|1.5|4>>
   </collection>
 </references>
 
@@ -400,33 +405,33 @@
       <with|mode|<quote|math>|<with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|C>><around*|(|-,X|)>:<with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|C>><rsup|op>\<rightarrow\><with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|Set>>>.>|<pageref|auto-5>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|1.2>|| This
-      <locus|<id|%17C052B8-17372708>|<link|hyperlink|<id|%17C052B8-17372708>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogQSBcXHRvIFgiXSxbMSwyLCJcXHBoaSBcXGNpcmMgZzogQiBcXHRvIFgiXSxbMywwLCJcXGV0YV9BKFxccGhpKTogQSBcXHRvIFkiXSxbMywyLCJcXGV0YV9CKFxccGhpIFxcY2lyYyBnKSA9IFxcZXRhX0EoXFxwaGkpIFxcY2lyYyBnOiBCIFxcdG8gWSJdLFswLDIsIkIiXSxbMCwwLCJBIl0sWzAsMSwiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxcZXRhX0EiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsxLDMsIlxcZXRhX0IiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiZyIsMV1d>>|figure>
-      TODO>|<pageref|auto-7>>
+      <locus|<id|%4D66AE8-7229AF8>|<link|hyperlink|<id|%4D66AE8-7229AF8>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogQSBcXHRvIFgiXSxbMSwyLCJcXHBoaSBcXGNpcmMgZzogQiBcXHRvIFgiXSxbMywwLCJcXGV0YV9BKFxccGhpKTogQSBcXHRvIFkiXSxbMywyLCJcXGV0YV9CKFxccGhpIFxcY2lyYyBnKSA9IFxcZXRhX0EoXFxwaGkpIFxcY2lyYyBnOiBCIFxcdG8gWSJdLFswLDIsIkIiXSxbMCwwLCJBIl0sWzAsMSwiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxcZXRhX0EiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiZ14qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsxLDMsIlxcZXRhX0IiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiZyIsMV1d>>|internal
+      diagram> TODO>|<pageref|auto-7>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|1.3>|| In this
-      <locus|<id|%17C052B8-1751EF68>|<link|hyperlink|<id|%17C052B8-1751EF68>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJDKFgsWCkiXSxbMSwyLCJDKFksWCkiXSxbNCwwLCJDKFgsWSkiXSxbNCwyLCJDKFksWSkiXSxbMCwyLCJZIl0sWzAsMCwiWCJdLFswLDEsImdeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiXFxldGFfWCJdLFsxLDMsIlxcZXRhX1kiXSxbMiwzLCJnXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs0LDUsImciLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dXQ==>>|figure>,
+      <locus|<id|%4D66AE8-72643C8>|<link|hyperlink|<id|%4D66AE8-72643C8>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJDKFgsWCkiXSxbMSwyLCJDKFksWCkiXSxbNCwwLCJDKFgsWSkiXSxbNCwyLCJDKFksWSkiXSxbMCwyLCJZIl0sWzAsMCwiWCJdLFswLDEsImdeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiXFxldGFfWCJdLFsxLDMsIlxcZXRhX1kiXSxbMiwzLCJnXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs0LDUsImciLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dXQ==>>|figure>,
       <with|mode|<quote|math>|\<eta\><rsub|X>> and
       <with|mode|<quote|math>|\<eta\><rsub|Y>> are
       isomorphisms.>|<pageref|auto-8>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|1.4>||This
-      <locus|<id|%17C052B8-17527820>|<link|hyperlink|<id|%17C052B8-17527820>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX1g6IFggXFx0byBYIl0sWzMsMCwiXFxldGFfWCgxX1gpOiBYIFxcdG8gWSJdLFsxLDIsIlxccGhpOiBYIFxcdG8gWCJdLFszLDIsIlxcZXRhX1goXFxwaGkpPVxcZXRhX1goMV9YKSBcXGNpcmMgXFxwaGk6IFggXFx0byBZIl0sWzAsMiwiWCJdLFswLDAsIlgiXSxbMCwxLCJcXGV0YV9YIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxccGhpXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiXFxldGFfWCIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMSwzLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs0LDUsIlxccGhpIiwxXV0=>>|figure>
-      TODO>|<pageref|auto-9>>
+      <locus|<id|%4D66AE8-726C928>|<link|hyperlink|<id|%4D66AE8-726C928>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX1g6IFggXFx0byBYIl0sWzMsMCwiXFxldGFfWCgxX1gpOiBYIFxcdG8gWSJdLFsxLDIsIlxccGhpOiBYIFxcdG8gWCJdLFszLDIsIlxcZXRhX1goXFxwaGkpPVxcZXRhX1goMV9YKSBcXGNpcmMgXFxwaGk6IFggXFx0byBZIl0sWzAsMiwiWCJdLFswLDAsIlgiXSxbMCwxLCJcXGV0YV9YIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDIsIlxccGhpXioiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMywiXFxldGFfWCIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMSwzLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs0LDUsIlxccGhpIiwxXV0=>>|internal
+      diagram> TODO>|<pageref|auto-9>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|1.5>||This
-      <locus|<id|%17C052B8-17530C08>|<link|hyperlink|<id|%17C052B8-17530C08>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX3tcXGhhdHtGfX06IFxcaGF0e0Z9IFxcdG8gXFxoYXR7Rn0iXSxbMywwLCJlIDo9IFxcZXRhX3tcXGhhdHtGfX0oMV97XFxoYXR7Rn19KSBcXGluIEYoXFxoYXR7Rn0pIl0sWzEsMiwiXFxwaGk6IFggXFx0byBcXGhhdHtGfSJdLFszLDIsIlxcZXRhX1goXFxwaGkpID0gRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzAsMiwiWCJdLFswLDAsIlxcaGF0e0Z9Il0sWzAsMSwiXFxldGFfe1xcaGF0e0Z9fSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMCwyLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsyLDMsIlxcZXRhX1giLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzEsMywiRihcXHBoaSkiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiXFxwaGkiLDFdXQ==>>|figure>
-      indicates how the <with|mode|<quote|math>|e> is defined by
+      <locus|<id|%4D66AE8-7275BD0>|<link|hyperlink|<id|%4D66AE8-7275BD0>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCIxX3tcXGhhdHtGfX06IFxcaGF0e0Z9IFxcdG8gXFxoYXR7Rn0iXSxbMywwLCJlIDo9IFxcZXRhX3tcXGhhdHtGfX0oMV97XFxoYXR7Rn19KSBcXGluIEYoXFxoYXR7Rn0pIl0sWzEsMiwiXFxwaGk6IFggXFx0byBcXGhhdHtGfSJdLFszLDIsIlxcZXRhX1goXFxwaGkpID0gRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzAsMiwiWCJdLFswLDAsIlxcaGF0e0Z9Il0sWzAsMSwiXFxldGFfe1xcaGF0e0Z9fSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMCwyLCJcXHBoaV4qIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsyLDMsIlxcZXRhX1giLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzEsMywiRihcXHBoaSkiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzQsNSwiXFxwaGkiLDFdXQ==>>|internal
+      diagram> indicates how the <with|mode|<quote|math>|e> is defined by
       <with|mode|<quote|math>|\<eta\>>, or conversely how the
       <with|mode|<quote|math>|\<eta\>> is defined by
       <with|mode|<quote|math>|e>.>|<pageref|auto-12>>
 
       <tuple|normal|<surround|<hidden-binding|<tuple>|1.6>|| This
-      <locus|<id|%17C052B8-1752F420>|<link|hyperlink|<id|%17C052B8-1752F420>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogWCBcXHRvIFxcaGF0e0Z9Il0sWzEsMiwiXFxwaGkgXFxjaXJjIGY6IFkgXFx0byBcXGhhdHtGfSJdLFswLDIsIlkiXSxbMCwwLCJYIl0sWzQsMCwiRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzQsMiwiRihcXHBoaSBcXGNpcmMgZikoZSkgPSBbRihmKSBcXGNpcmMgRihcXHBoaSldKGUpIFxcaW4gRihZKSJdLFswLDEsImZeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMiwzLCJmIiwxXSxbNCw1LCJGKGYpIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDQsIkYoLSkoZSkiLDFdLFsxLDUsIkYoLSkoZSkiLDFdXQ==>>|figure>
-      proves that the naturality of <with|mode|<quote|math>|F<around*|(|-|)><around*|(|e|)>>
-      is an immediate result of the functoriality of
-      <with|mode|<quote|math>|F>. It should be noticed that the domain of
-      <with|mode|<quote|math>|F> is the dual category of
-      <with|mode|<quote|math>|<with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|C>>>,
+      <locus|<id|%4D66AE8-7276808>|<link|hyperlink|<id|%4D66AE8-7276808>|<url|https://q.uiver.app/#q=WzAsNixbMSwwLCJcXHBoaTogWCBcXHRvIFxcaGF0e0Z9Il0sWzEsMiwiXFxwaGkgXFxjaXJjIGY6IFkgXFx0byBcXGhhdHtGfSJdLFswLDIsIlkiXSxbMCwwLCJYIl0sWzQsMCwiRihcXHBoaSkoZSkgXFxpbiBGKFgpIl0sWzQsMiwiRihcXHBoaSBcXGNpcmMgZikoZSkgPSBbRihmKSBcXGNpcmMgRihcXHBoaSldKGUpIFxcaW4gRihZKSJdLFswLDEsImZeKiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMiwzLCJmIiwxXSxbNCw1LCJGKGYpIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDQsIkYoLSkoZSkiLDFdLFsxLDUsIkYoLSkoZSkiLDFdXQ==>>|internal
+      diagram> proves that the naturality of
+      <with|mode|<quote|math>|F<around*|(|-|)><around*|(|e|)>> is an
+      immediate result of the functoriality of <with|mode|<quote|math>|F>. It
+      should be noticed that the domain of <with|mode|<quote|math>|F> is the
+      dual category of <with|mode|<quote|math>|<with|mode|<quote|text>|<with|font-family|<quote|ss>|font-shape|<quote|right>|C>>>,
       so it should be <with|mode|<quote|math>|F<around*|(|\<varphi\>\<circ\>f|)>=F<around*|(|f|)>\<circ\>F<around*|(|\<varphi\>|)>>.>|<pageref|auto-13>>
     </associate>
     <\associate|toc>
